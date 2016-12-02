@@ -6,10 +6,17 @@ html, body {
   padding: 0px;
 }
 
-md-toolbar h1 {
+md-sidenav h1 {
   font-size: 1.25em;
   font-weight: 400;
-  margin: auto;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+#content {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 5px;
 }
 
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
