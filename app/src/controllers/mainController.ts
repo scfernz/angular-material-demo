@@ -22,6 +22,7 @@ module ContactManagerApp {
     users: User[] = [];
     selected: User = null;
     message: string = "Hello from our controller";
+    searchText: string = '';
     toggleSideNav(): void {
       this.$mdSidenav('left').toggle();
     }
